@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet">
+    <!-- Animaciones CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Yesica Matu - Portafolio Web</title>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <nav>
+        <h1>Yesica Matu</h1>
+        <ul>
+           <li><a href="#about" class="nav-link">About</a></li>
+           <li><a href="#skills" class="nav-link">Skills</a></li>
+           <li><a href="#projects" class="nav-link">Projects</a></li>
+           <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <!--El menu nos llevara al apartado dodne mostrara about, skills, project y contact-->
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!--Seleccion Hero-->
+    <section class="hero" id="about">
+        <img src="images/img1.png" alt="women in tech" class="hero-img" loading="lazy">
+        <div class="bio animate_animated animated_shakeX">
+            <h2 class="bio-title">About me</h2> 
+            <p>Estudiante de Ingeniería Química Industrial interesada en desarrollarme profesionalmente en el área tecnológica. </p>
+        </div>
+    </section>
+
+    <!--About me-->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>Estoy tomando cursos de certificación de Desarrollador Front-End para integrarme al mundo tecnológico</p>
+        <p>He dado asesorías a chicos y chicas de secundaria y preparatoria en asignaturas de ciencias exactas, tales como química, física, matemáticas, cálculo diferencial e integral</p>
+        <p>Me fascina aprender sobre el funcionamiento de diferentes softwares</p>
+    </section>
+
+    <!--skills-->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+            <div class="skills-wrapper">
+                <div class="first-set animate__animated animate__pulse">
+                    <img src="images/icons8-html-5.svg" alt="HTML5" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card">
+                </div>
+                <div class="second-set animate__animated animate__pulse">
+                    <img src="images/icons8-bootstrap.svg" alt="Bootstrap" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-github-50.svg" alt="Git" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+                </div>
+            </div>
+    </section>
+
+    <!--Projects-->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="images/proyecto1.png" alt="Pinterest Clon" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 1</h3>
+                <p class="project-details">This project us a clone of the Pinterest home interface, created purely with HTML5 and CSS3</p>
+                <a href="https://replicadeiniciopinterest.vercel.app/" target="_blank" class="project-link">Check it out!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/workprocess.jpg" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 2</h3>
+                <p class="project-details">Work in progress</p>
+                <a href="#" target="_blank" class="project-link">Stay tuned</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/workprocess.jpg" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 3</h3>
+                <p class="project-details">Work in progress</p>
+                <a href="#" target="_blank" class="project-link">Stay tuned</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Redes sociales, en este caso no se usa section-->
+    <div class="socials">
+        <a href="https://github.com/yesica-matu" target="_blank"><img src="icons/github.png" alt="Github" loading="lazy" class="socicon"></a>
+        <a href="https://www.instagram.com/yessica_matu02/" target="_blank"><img src="icons/instagram.png" alt="Instagram" loading="lazy" class="socicon"></a>
+        <a href="https://www.linkedin.com/in/yesica-matú-ceballos-4b2010316/" target="_blank"><img src="icons/linkedin.png" alt="LinkedIn" loading="lazy" class="socicon"></a>
+        <a href="https://www.facebook.com/yessi.matu.98?mibextid=ZbWKwL" target="_blank"><img src="icons/facebook.png" alt="Facebook" loading="lazy" class="socicon"></a>
+    </div>
+
+    <!--Scroll button, con elemnto i=icon-->
+    <i class="scroll-up" id="scroll-up">
+        <img src="icons/arrow.jpeg" class="socicon up-arrow" alt="scroll up">
+    </i>
+
+    <!--Footer-->
+    <footer>
+        <p>This website was created by Yesica Matu</p>
+    </footer>
+
+    <!--JavaScript link-->
+    <script src="app.js"></script>
+
+
+
+
+            <!--Ion icons scripts-->
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+</html>
